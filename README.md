@@ -96,7 +96,7 @@ Os resultados confirmam que população, PIB e conectividade digital têm papel 
 
 Os resultados apontam que, na Região Sudeste, o PIB, a expectativa de vida e o IDHM são os indicadores mais diretamente ligados ao desenvolvimento humano.  
 
-Estados com economias mais fortes e maiores índices de conectividade tendem a apresentar **melhores condições de vida e menor vulnerabilidade social.  
+Estados com economias mais fortes e maiores índices de conectividade tendem a apresentar melhores condições de vida e menor vulnerabilidade social.  
 Em contrapartida, violência e desemprego mostram-se fortemente associados à redução da longevidade e à piora do bem-estar populacional.  
 
 Além disso, a conectividade (IBC) surge como um novo determinante de desigualdade, um fator emergente que ainda não é plenamente captado pelos indicadores tradicionais de desenvolvimento humano.
