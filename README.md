@@ -3,7 +3,6 @@
 ### Universidade Federal de Lavras (UFLA)
 
 **Autor:** Paulo Henrique dos Anjos Silveira – 202310533
-**Ano:** 2025
 
 **Tema:** Avaliar e prever os principais agentes e fenômenos associados aos impactos socioeconômicos nos municípios da Região Sudeste, utilizando modelos interpretáveis para subsidiar recomendações de políticas públicas.
 
