@@ -4,48 +4,58 @@
 
 **Autor:** Paulo Henrique dos Anjos Silveira – 202310533
 **Ano:** 2025
-**Tema:** Avaliar e prever os agentes e fenômenos que mais causam impactos socioeconômicos nos municípios da Região Sudeste, aplicando modelos interpretáveis para formular recomendações de políticas públicas.
+
+**Tema:** Avaliar e prever os principais agentes e fenômenos associados aos impactos socioeconômicos nos municípios da Região Sudeste, utilizando modelos interpretáveis para subsidiar recomendações de políticas públicas.
 
 ---
 
-## Descrição
+## Os objetivos principais são:
 
-Este repositório tem como objetivos:
-(1) identificar os fatores socioeconômicos mais associados ao desenvolvimento humano municipal;
-(2) construir modelos preditivos interpretáveis;
-(3) gerar recomendações estratégicas para políticas públicas com base nos resultados obtidos.
-
-Foram utilizados dados públicos e oficiais de fontes nacionais, como IBGE, PNUD/Atlas, ANATEL e DATASUS, integrando indicadores de educação, renda, conectividade, violência e saúde.
+1. Identificar fatores socioeconômicos associados ao desenvolvimento humano municipal;
+2. Construir e comparar modelos preditivos interpretáveis;
+3. Formular recomendações estratégicas para políticas públicas a partir dos resultados obtidos.
 
 ---
 
-## Indicadores utilizados e observações sobre os dados
+## Dados e Indicadores
 
-Os dados centrais abrangem principalmente o período de 2021–2022, visando manter consistência temporal entre as fontes.
-No **Desafio 2**, foram realizados os seguintes ajustes:
+Foram utilizados dados públicos e oficiais provenientes de fontes nacionais, incluindo:
 
-* Inclusão de variáveis derivadas para aprimorar a interpretação dos resultados.
+* IBGE
+* PNUD / Atlas do Desenvolvimento Humano
+* ANATEL
+* DATASUS
+
+### Observações sobre os dados
+
+No Desafio 2, foram realizadas adaptações e transformações adicionais, incluindo:
+
+* Criação de variáveis derivadas para melhorar a capacidade explicativa e interpretabilidade dos modelos.
 
 ---
 
-## Escolhas metodológicas
+## Metodologia
 
-1. Preparação e transformação de variáveis
-2. Divisão dos dados em conjuntos de treino e teste, com padronização
-3. Modelagem e interpretação
+As principais etapas metodológicas incluem:
 
-   * Modelos utilizados: Random Forest, XGBoost e Ridge Regression (α = 0.5)
-4. Validação dos modelos e análise de robustez
+1. Preparação, limpeza e transformação das variáveis
+2. Divisão dos dados em conjuntos de treino e teste, com padronização quando aplicável
+3. Modelagem preditiva e interpretação dos resultados
+
+   * Modelos utilizados: **Random Forest**, **XGBoost** e **Ridge Regression**
+4. Validação cruzada e análise de robustez dos modelos
 
 ---
 
 ## Conclusão
 
-A escolha do `IDHM` como variável-alvo é justificada por sua natureza multidimensional — renda, educação e longevidade — e por sua ampla relevância no apoio à formulação e avaliação de políticas públicas.
+A escolha do IDHM como variável-alvo é justificada por sua natureza multidimensional — renda, educação e longevidade — e por sua ampla relevância no apoio à formulação e avaliação de políticas públicas.
 
 ---
 
 ## Reprodutibilidade
+
+Para reproduzir os resultados:
 
 1. Instale as dependências:
 
@@ -54,16 +64,12 @@ A escolha do `IDHM` como variável-alvo é justificada por sua natureza multidim
    ```
 
 2. Execute os notebooks:
-      Abra o notebook no Google Colab e execute:
-      Runtime → Run all
+
+   * Abra os arquivos no **Google Colab**
+   * Selecione **Runtime → Run all**
 
 ---
 
-## Referências
-
-* Instituto Brasileiro de Geografia e Estatística (IBGE)
-* Programa das Nações Unidas para o Desenvolvimento (PNUD)
-* Atlas do Desenvolvimento Humano (IPEA/PNUD/FJP)
-* Agência Nacional de Telecomunicações (ANATEL)
-* DATASUS – Ministério da Saúde
-* **Zetta Lab 2025 – UFLA**: *Desafio 1 e 2 – Ciência e Governança de Dados*
+## Agradecimentos
+* **Zetta Lab 2025 – UFLA**
+  *Desafio 1 e 2 – Ciência e Governança de Dados*
